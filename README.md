@@ -12,13 +12,12 @@ O **HelpDesk Core** é uma solução Full-Stack completa para gerenciamento e co
 
 ## 🚀 Funcionalidades Principais
 
-* **🎯 Gestão Automática de SLA:** Cálculo do prazo limite de resolução de acordo com o nível de prioridade do ticket (Baixa, Média, Alta e Crítico).
-* **🔄 Ciclo de Vida do Chamado:** Fluxo estruturado de transição de estados (`Aberto` ➔ `Em Atendimento` ➔ `Resolvido` / `Fechado`).
-* **👥 Perfil Duplo de Acesso na Interface:**
+* **Gestão Automática de SLA:** Cálculo do prazo limite de resolução de acordo com o nível de prioridade do ticket (Baixa, Média, Alta e Crítico).
+* **Ciclo de Vida do Chamado:** Fluxo estruturado de transição de estados (`Aberto` ➔ `Em Atendimento` ➔ `Resolvido` / `Fechado`).
+* **Perfil Duplo de Acesso na Interface:**
   * **Visão Solicitante:** Formulário interativo para abertura de solicitações e acompanhamento de chamados ativos.
   * **Visão Técnico / N2:** Painel expandido focado em ações operacionais rápidas (atendimento, atribuição técnica e finalização).
-* **📊 Dashboard de Métricas:** Cards dinâmicos exibindo Total de Chamados, Atendimentos em Aberto, Resolvidos e Indicador de Estouro de SLA.
-* **🎨 Interface Modern Glassmorphism:** Front-end responsivo em Dark Mode desenvolvido com HTML5, CSS3 avançado (efeitos de desfoque e luzes) e JavaScript puro.
+* **Dashboard de Métricas:** Cards dinâmicos exibindo Total de Chamados, Atendimentos em Aberto, Resolvidos e Indicador de Estouro de SLA.
 
 ---
 
