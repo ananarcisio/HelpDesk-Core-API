@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "idafRrbVmhmkDQWFwC6D1WV0e3JCM7zG1utb3Pd6KZI=",
+  "Source": "HelpDeskCore.Api",
+  "BasePath": "_content/HelpDeskCore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
