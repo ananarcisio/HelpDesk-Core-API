@@ -69,4 +69,35 @@ public class TicketsController : ControllerBase
             ChamadosForaSla = estouraramSla
         });
     }
+    // PUT: api/tickets/5/status
+    [HttpPut("{id}/status")]
+    public async Task<IActionResult> AtualizarStatus(int id, [FromBody] StatusTicket novoStatus)
+    {
+        var ticket = await _context.Tickets.FindAsync(id);
+        if (ticket == null) return NotFound("Chamado não encontrado.");
+
+        ticket.Status = novoStatus;
+
+        // Se o status for alterado para Resolvido ou Fechado, grava o momento da resolução para o SLA
+        if (novoStatus == StatusTicket.Resolvido || novoStatus == StatusTicket.Fechado)
+        {
+            ticket.DataResolucao = DateTime.UtcNow;
+        }
+
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
+
+    // PUT: api/tickets/5/atribuir
+    [HttpPut("{id}/atribuir")]
+    public async Task<IActionResult> AtribuirTecnico(int id, [FromBody] string nomeTecnico)
+    {
+        var ticket = await _context.Tickets.FindAsync(id);
+        if (ticket == null) return NotFound("Chamado não encontrado.");
+
+        ticket.TecnicoAtribuido = nomeTecnico;
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
 }

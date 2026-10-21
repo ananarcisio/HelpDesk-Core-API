@@ -131,6 +131,8 @@ H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\refint\HelpDeskCo
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\HelpDeskCore.Api.pdb
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\HelpDeskCore.Api.genruntimeconfig.cache
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\ref\HelpDeskCore.Api.dll
+H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\bin\Debug\net8.0\HelpDeskCore.Api.staticwebassets.runtime.json
+H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\HelpDeskCore.Api.sourcelink.json
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\bin\Debug\net8.0\HelpDeskCore.Api.staticwebassets.endpoints.json
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 H:\Pessoal\HelpDesk-Core-API\HelpDeskCore.Api\obj\Debug\net8.0\staticwebassets\msbuild.HelpDeskCore.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

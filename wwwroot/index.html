@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpDesk Core - Painel de Atendimento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header com Alternador de Perfil -->
+        <header class="glass-header">
+            <div class="header-content">
+                <h1><i class="fa-solid fa-headset"></i> HelpDesk Core</h1>
+                <p>Sistema Inteligente de Gerenciamento de Chamados de TI</p>
+            </div>
+            <div class="view-toggle">
+                <button id="btn-user-view" class="active-view" onclick="alternarVisao('user')">
+                    <i class="fa-solid fa-user"></i> Visão Solicitante
+                </button>
+                <button id="btn-tech-view" onclick="alternarVisao('tech')">
+                    <i class="fa-solid fa-user-shield"></i> Visão Técnico / N2
+                </button>
+            </div>
+        </header>
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard-grid">
+            <div class="card glass-card">
+                <i class="fa-solid fa-ticket icon-blue"></i>
+                <div class="card-info">
+                    <h3>Total Chamados</h3>
+                    <span id="total-tickets">0</span>
+                </div>
+            </div>
+            <div class="card glass-card">
+                <i class="fa-solid fa-spinner icon-yellow"></i>
+                <div class="card-info">
+                    <h3>Em Aberto</h3>
+                    <span id="abertos-tickets">0</span>
+                </div>
+            </div>
+            <div class="card glass-card">
+                <i class="fa-solid fa-circle-check icon-green"></i>
+                <div class="card-info">
+                    <h3>Resolvidos</h3>
+                    <span id="resolvidos-tickets">0</span>
+                </div>
+            </div>
+            <div class="card glass-card">
+                <i class="fa-solid fa-triangle-exclamation icon-red"></i>
+                <div class="card-info">
+                    <h3>Estouraram SLA</h3>
+                    <span id="sla-tickets">0</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Layout Principal -->
+        <div class="main-layout" id="main-layout">
+            <!-- Formulário (Exibido apenas na visão Solicitante) -->
+            <section class="glass-card form-section" id="form-section">
+                <h2><i class="fa-solid fa-plus-circle"></i> Abrir Novo Chamado</h2>
+                <form id="ticket-form">
+                    <div class="form-group">
+                        <label for="solicitante">Solicitante</label>
+                        <input type="text" id="solicitante" placeholder="Ex: Ana Elisa" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="titulo">Título do Problema</label>
+                        <input type="text" id="titulo" placeholder="Ex: Sem acesso à rede" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="categoria">Categoria</label>
+                            <select id="categoria" required>
+                                <option value="1">Hardware</option>
+                                <option value="2">Redes</option>
+                                <option value="3">Software</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="prioridade">Prioridade</label>
+                            <select id="prioridade" required>
+                                <option value="1">Baixa</option>
+                                <option value="2" selected>Média</option>
+                                <option value="3">Alta</option>
+                                <option value="4">Crítico</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="descricao">Descrição Detalhada</label>
+                        <textarea id="descricao" rows="3" placeholder="Descreva o problema com detalhes..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Registrar Chamado</button>
+                </form>
+            </section>
+
+            <!-- Tabela de Chamados -->
+            <section class="glass-card table-section" id="table-section">
+                <h2><i class="fa-solid fa-list-check"></i> Chamados Registrados</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#ID</th>
+                                <th>Título / Solicitante</th>
+                                <th>Categoria / Prioridade</th>
+                                <th>Status</th>
+                                <th>Técnico</th>
+                                <th>SLA</th>
+                                <th class="tech-only-col">Ações Técnico</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tickets-list">
+                            <!-- Inserido dinamicamente via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

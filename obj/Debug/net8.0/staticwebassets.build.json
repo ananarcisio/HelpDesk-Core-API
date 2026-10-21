@@ -1,12 +1,331 @@
 {
   "Version": 1,
-  "Hash": "idafRrbVmhmkDQWFwC6D1WV0e3JCM7zG1utb3Pd6KZI=",
+  "Hash": "07T3jbPmOgZoL3saNrckYebKhXneT8pn/BxNNJl0WyQ=",
   "Source": "HelpDeskCore.Api",
   "BasePath": "_content/HelpDeskCore.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelpDeskCore.Api\\wwwroot",
+      "Source": "HelpDeskCore.Api",
+      "ContentRoot": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\",
+      "BasePath": "_content/HelpDeskCore.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\app.js",
+      "SourceId": "HelpDeskCore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\",
+      "BasePath": "_content/HelpDeskCore.Api",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "99o6arr3fu",
+      "Integrity": "TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m+Qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\index.html",
+      "SourceId": "HelpDeskCore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\",
+      "BasePath": "_content/HelpDeskCore.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kd24ik4yb",
+      "Integrity": "2QI02dXogyP15bih+T0HuPLqppkoEmbxl7XaWzdYFJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\style.css",
+      "SourceId": "HelpDeskCore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\",
+      "BasePath": "_content/HelpDeskCore.Api",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tmqven53xc",
+      "Integrity": "a83GrVS5mz66Bt0ksStz+JL5i2JM9Ts/9TOuq9vZb50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.99o6arr3fu.js",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m+Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:39:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99o6arr3fu"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m+Qg="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m+Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:39:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m+Qg="
+        }
+      ]
+    },
+    {
+      "Route": "index.7kd24ik4yb.html",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2QI02dXogyP15bih+T0HuPLqppkoEmbxl7XaWzdYFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kd24ik4yb"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2QI02dXogyP15bih+T0HuPLqppkoEmbxl7XaWzdYFJs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2QI02dXogyP15bih+T0HuPLqppkoEmbxl7XaWzdYFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2QI02dXogyP15bih+T0HuPLqppkoEmbxl7XaWzdYFJs="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a83GrVS5mz66Bt0ksStz+JL5i2JM9Ts/9TOuq9vZb50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:45:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a83GrVS5mz66Bt0ksStz+JL5i2JM9Ts/9TOuq9vZb50="
+        }
+      ]
+    },
+    {
+      "Route": "style.tmqven53xc.css",
+      "AssetFile": "H:\\Pessoal\\HelpDesk-Core-API\\HelpDeskCore.Api\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a83GrVS5mz66Bt0ksStz+JL5i2JM9Ts/9TOuq9vZb50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 Oct 2026 14:45:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tmqven53xc"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a83GrVS5mz66Bt0ksStz+JL5i2JM9Ts/9TOuq9vZb50="
+        }
+      ]
+    }
+  ]
 }

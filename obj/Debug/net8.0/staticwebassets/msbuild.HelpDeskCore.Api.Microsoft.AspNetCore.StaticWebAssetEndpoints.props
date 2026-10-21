@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/app.99o6arr3fu.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"99o6arr3fu"},{"Name":"integrity","Value":"sha256-TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m\u002BQg="},{"Name":"label","Value":"_content/HelpDeskCore.Api/app.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m\u002BQg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:39:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/app.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m\u002BQg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TcaMBlYKI7FU62Pkpi5480nhWhhFiM2wPPeal94m\u002BQg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:39:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/index.7kd24ik4yb.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7kd24ik4yb"},{"Name":"integrity","Value":"sha256-2QI02dXogyP15bih\u002BT0HuPLqppkoEmbxl7XaWzdYFJs="},{"Name":"label","Value":"_content/HelpDeskCore.Api/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6111"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00222QI02dXogyP15bih\u002BT0HuPLqppkoEmbxl7XaWzdYFJs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:46:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2QI02dXogyP15bih\u002BT0HuPLqppkoEmbxl7XaWzdYFJs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6111"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00222QI02dXogyP15bih\u002BT0HuPLqppkoEmbxl7XaWzdYFJs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:46:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a83GrVS5mz66Bt0ksStz\u002BJL5i2JM9Ts/9TOuq9vZb50="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1888"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022a83GrVS5mz66Bt0ksStz\u002BJL5i2JM9Ts/9TOuq9vZb50=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:45:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HelpDeskCore.Api/style.tmqven53xc.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tmqven53xc"},{"Name":"integrity","Value":"sha256-a83GrVS5mz66Bt0ksStz\u002BJL5i2JM9Ts/9TOuq9vZb50="},{"Name":"label","Value":"_content/HelpDeskCore.Api/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1888"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022a83GrVS5mz66Bt0ksStz\u002BJL5i2JM9Ts/9TOuq9vZb50=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 Oct 2026 14:45:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

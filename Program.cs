@@ -1,10 +1,10 @@
-using HelpDeskCore.Api.Data; 
+using HelpDeskCore.Api.Data;
 using HelpDeskCore.Api.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuração do DbContext
+// Configuração do Banco de Dados SQLite
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=helpdesk.db"));
 
@@ -24,6 +24,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Habilitar a exibição de arquivos estáticos (HTML/CSS/JS)
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseAuthorization();
 app.MapControllers();
 
