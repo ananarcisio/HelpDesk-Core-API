@@ -32,4 +32,11 @@ app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
 
+// Aplica as migrations automaticamente na inicialização no Render
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    dbContext.Database.Migrate();
+}
+
 app.Run();
